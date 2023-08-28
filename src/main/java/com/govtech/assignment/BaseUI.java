@@ -146,7 +146,7 @@ public static void waitForPageToLoad(int unit) {
 }
 
 
-@AfterClass
+@AfterTest
 public void closeDriver() {
 	driver.close();
 }
